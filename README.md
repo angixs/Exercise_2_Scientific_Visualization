@@ -48,3 +48,8 @@ They were used to test multi-view integration approaches before defining the fin
 All other notebooks document the steps taken to reach the final solution.
 
 ---
+
+## Conclusion
+In conclusion, this repository presents the full development of a multi-view analysis pipeline built on GO terms (BP, MF, CC) and HPO data. After an initial phase in which each ontology was explored independently, we implemented an integration strategy using Similarity Network Fusion (SNF), followed by clustering (HDBSCAN) and visualization (UMAP). This approach enabled the identification of biologically meaningful clusters.
+
+For each identified cluster, we analyzed the most impactful GO terms to interpret their functional significance. The results of this analysis are summarized in two PDF documents, which provide a detailed description of the key GO terms associated with each cluster. These documents also include a discussion produced with the support of AI tools, which were given the full GO enrichment results to help synthesize and interpret the findings.
